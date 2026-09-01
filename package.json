@@ -1,0 +1,7 @@
+{
+  "name": "pkg-tool",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ]
+}
