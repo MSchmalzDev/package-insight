@@ -20,8 +20,13 @@ cd web && npm install && npm run dev
 ### Branches & Pull Requests
 
 - Kein direkter Push auf `main` für Feature-/Fix-Arbeit.
-- Neuer Branch pro Änderung: `feature/<kurzbeschreibung>` bzw. `fix/<kurzbeschreibung>`.
 - Änderungen per Pull Request nach `main` mergen.
+- Merge-Strategie: **Squash merge** — alle Commits eines PRs werden zu einem Commit zusammengefasst, für eine saubere, lineare `main`-Historie.
+- Branch nach dem Merge löschen (GitHub macht das automatisch).
+
+**Branch-Namen:** `<type>/<kurzbeschreibung-in-kebab-case>`, gleiche Types wie bei Commits (siehe unten). Beispiel: `feat/add-login`, `docs/add-readme`.
+
+**PR-Titel:** gleiches Format wie Commit Messages (`<type>: <kurzbeschreibung>`) — da Squash-Merge den PR-Titel standardmäßig als finalen Commit-Message-Titel auf `main` übernimmt. Beispiel: `feat: add package list endpoint`.
 
 ### Commit Messages
 
