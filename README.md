@@ -1,9 +1,15 @@
 # pkg-tool
 
-Monorepo mit zwei Apps:
+pkg-tool zeigt die Abhängigkeiten zwischen npm Packages als interaktiven Graphen. Man wählt ein Package aus und pkg-tool visualisiert, welche anderen Packages davon abhängen.
 
-- `apps/api` — Backend ([NestJS](https://nestjs.com))
-- `web` — Frontend ([Next.js](https://nextjs.org))
+Die meisten Tools dafür (zum Beispiel npm ls) geben nur Text im Terminal aus. Bei tiefen oder breiten Abhängigkeitsbäumen wird das schnell unübersichtlich. pkg-tool macht das Ganze stattdessen visuell und interaktiv nachvollziehbar.
+
+## Aufbau
+
+Monorepo mit zwei Apps.
+
+* `apps/api` enthält das Backend, gebaut mit [NestJS](https://nestjs.com)
+* `web` enthält das Frontend, gebaut mit [Next.js](https://nextjs.org)
 
 ## Getting Started
 
