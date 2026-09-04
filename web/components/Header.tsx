@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
 import { FaGithub } from "react-icons/fa";
 import { Package } from "lucide-react";
 
@@ -27,7 +27,6 @@ export function Header() {
         >
           <FaGithub className="size-4" />
         </Button>
-        <Button variant="outline">Über das Produkt</Button>
       </div>
     </header>
   );
