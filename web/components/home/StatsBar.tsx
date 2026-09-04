@@ -5,7 +5,7 @@ import {
   CardTitle,
   CardDescription,
   CardContent,
-} from "@/components/ui/Card";
+} from "@/components/ui/card";
 
 const stats = [
   { icon: Package, values: 2, label: "Package im Cachen" },
