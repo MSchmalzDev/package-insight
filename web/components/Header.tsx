@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
 import { FaGithub } from "react-icons/fa";
 import { Package } from "lucide-react";
 
