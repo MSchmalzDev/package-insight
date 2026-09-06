@@ -16,7 +16,7 @@ const stats = [
 
 export function StatsBar() {
   return (
-    <div className="flex flex-row items-center justify-center gap-8 ">
+    <div className="flex flex-row flex-wrap items-center justify-center gap-8">
       {stats.map((stat) => {
         const Icon = stat.icon;
         return (
